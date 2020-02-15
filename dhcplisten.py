@@ -159,7 +159,7 @@ seenIps = {}
 sock = socket.socket(socket.AF_INET,  socket.SOCK_DGRAM)
 sock.bind(("255.255.255.255", 68))
 
-fmt = '>BBBBLHHLLLLQ64s128sL' 
+fmt = '>BBBBLHHLLLL16s64s128sL' 
 #fmt = '>BBBBLHHLLLLLLLL192xL'
 
 # Array indices for unpacked data
